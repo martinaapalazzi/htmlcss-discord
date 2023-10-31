@@ -3,7 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
+
+
+
 
 /* GENERAL */
 .container {
@@ -30,16 +35,24 @@
     padding: 9px;
  
 }
-h1 {
-    
+.text-align {
+    text-align: center;
 }
+h1{
+    font-size: 32px;
+}
+
 p {
     line-height: 25px;
+    background-repeat: no-repeat;
 }
 h3 {
     background-image: url(../img3/stars.svg);
 
 }
+
+
+
 
 
 /* HEADER */
@@ -48,6 +61,7 @@ h3 {
     display: flex;
     padding: 10px 0;
     justify-content: center;
+    vertical-align: middle;
 
 }
 .my-col { 
@@ -96,6 +110,11 @@ a {
 }
 
 
+
+
+
+
+
 /* MAIN */
 .section {
     height: 600px;
@@ -105,19 +124,13 @@ a {
     justify-content: center;
 }
 .grey  {
-    background-color: lightgrey;
-}
-
-.box {
-    border: 2px dotted black;
+    background-color: rgb(228, 227, 227);
 }
 .blue {
-    background-color: lightblue;
     width: 60%;
     height: 80%;
 }
 .pink {
-    background-color: pink;
     width: 30%;
     height: 80%;
 }
@@ -128,14 +141,18 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .green {
-    background-color: darkgreen;
     padding: 30px;
     width: 90% ;
     height: 800px;
 }
+
+
+
+
+
+
 
 
 /* FOOTER */
