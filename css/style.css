@@ -1,0 +1,149 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+.container {
+    max-width: 1000px;
+    margin: 0, auto;
+}
+
+
+/* HEADER */
+.top-container {
+    background-color: lightblue;
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+}
+.my-col { 
+    min-height: 40px;
+    width: 30%;
+    background-color: yellow;
+    border: 2px dotted black;
+}
+li {
+    display: inline-block;
+
+}
+.logo {
+    padding: 10px
+}
+.link {
+    text-align: center;
+    padding: 10px
+}
+.login {
+    text-align: end;
+    padding: 10px
+}
+.bottom-container {
+    background-color: blue;
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+
+}
+.fuchsia-container {
+    background-color: fuchsia;
+    min-height: 200px;
+    width: 50%;
+    border: 2px dotted black;
+}
+
+/* MAIN */
+.section {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.grey  {
+    background-color: lightgrey;
+}
+
+.box {
+    border: 2px dotted black;
+}
+.blue {
+    background-color: lightblue;
+    width: 60%;
+    height: 80%;
+}
+.pink {
+    background-color: pink;
+    width: 30%;
+    height: 80%;
+}
+.last-section {
+    background-color: lightgray;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.green {
+    background-color: darkgreen;
+    width: 90% ;
+    height: 90%;
+}
+
+
+/* FOOTER */
+.black {
+    background-color: rgb(31, 35, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top {
+    width: 100%;
+    height: 400px;
+}
+.bottom {
+    width: 100%;
+    height: 70px;
+    align-items: flex-end;
+}
+.rose-box {
+    width: 30%;
+    height: 80%;
+    background-color: rgb(255, 109, 109);
+    border: 2px dotted black;
+}
+.azzurro {
+    width: 60%;
+    height: 80%;
+    background-color: rgb(16, 205, 226);
+    border: 2px dotted black;
+    display: flex;
+}
+.sottobox {
+    width: 30%;
+    height: 100%;
+    border: 2px dotted white;
+}
+.acqua-box {
+    background-color: aquamarine;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.button {
+    background-color: pink;
+    border: 2px dotted black;
+    padding: 3px;
+}
