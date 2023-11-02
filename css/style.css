@@ -39,16 +39,30 @@
     text-align: center;
 }
 h1{
-    font-size: 32px;
+    font-size: 2.5em;
+    padding: 25px 20px;
 }
-
+h2{
+    font-size: 2.3em;
+    padding: 25px 20px;
+}
 p {
     line-height: 25px;
+    padding-left: 20px;
     background-repeat: no-repeat;
 }
 h3 {
     background-image: url(../img3/stars.svg);
-
+    font-size: 1.5em;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 45px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
 }
 
 
@@ -59,24 +73,20 @@ h3 {
 .top-container {
     background-color: #355CE0;
     display: flex;
-    padding: 10px 0;
     justify-content: center;
+    align-items: center;
 }
 .my-col { 
-    padding: 10px 0;
     width: 50%;
-}
-ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
 }
 a {
     color: white;
     text-decoration: none;
+    display: inline-block;
+    padding: 15px;
 }
 .logo {
-    padding: 10px
+    height: 40px;
 }
 .link {
     text-align: center;
@@ -107,7 +117,6 @@ a {
     padding: 20px;
     text-align: center;
 }
-
 
 
 
@@ -148,6 +157,9 @@ a {
     text-align: center;
     background-repeat: no-repeat;
 }
+img {
+    max-width: 100%;
+}
 
 
 
@@ -182,8 +194,6 @@ a {
     width: 30%;
     height: 80%;
 }
-
-
 .azzurro {
     width: 60%;
     height: 80%;
@@ -202,8 +212,10 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .button {
     padding: 3px;
+}
+.flag {
+    height: 15px;
 }
